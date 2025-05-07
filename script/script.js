@@ -1,4 +1,4 @@
-var imagenes = ['img/galeriaVisual/01.jfif','img/galeriaVisual/02.jfif', 'img/galeriaVisual/03.jfif','img/galeriaVisual/04.jfif', 'img/galeriaVisual/05.jfif', 'img/galeriaVisual/06.jfif', 'img/galeriaVisual/07.jfif', 'img/galeriaVisual/08.jfif', 'img/galeriaVisual/09.jfif'],
+var imagenes = ['../img/galeriaVisual/01.jfif','../img/galeriaVisual/02.jfif', '../img/galeriaVisual/03.jfif','../img/galeriaVisual/04.jfif', '../img/galeriaVisual/05.jfif', '../img/galeriaVisual/06.jfif', '../img/galeriaVisual/07.jfif', '../img/galeriaVisual/08.jfif', '../img/galeriaVisual/09.jfif'],
     cont = 0;
 
     function carrousel(galeriaVisual2)
