@@ -1,0 +1,205 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'kanit';
+}
+body 
+{
+    background-image: url("img/backGroundImage.png");
+    background-size:cover;
+    margin-right: 4.688rem;
+}
+.contenido
+{
+    margin: 4.375rem 9.375rem 0.938rem 13.75rem; 
+    background: linear-gradient(rgba(245, 245, 191, 0.8),rgba(201, 201, 159, 0.8));
+    border-radius: 0.313rem;
+    border: 0.188rem solid rgb(0, 0, 0);
+    padding: 0.625rem 1.875rem;
+}
+.subtitulo
+{
+    text-shadow: 0.125rem 0.063rem 0.25rem rgb(255, 000, 000);
+    color:rgb(255, 255, 255);
+    margin-bottom: 0;
+    margin-top: 0.438rem;
+}
+.subsubtitulo
+{
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+p
+{
+    margin-top: 0;
+    margin-bottom: 0.438rem;
+}
+/*Links De Instagram De Entrevistas*/
+.igLinks
+{
+    display: inline-block;
+    min-height: 2.5rem;
+    width: 2.5rem;
+    margin: 0.625rem;
+    text-align: center;
+    line-height: 2.5rem;
+    border: 0.188rem;
+    transition: transform 0.3s;
+}
+.igLinks i
+{
+    color:rgb(0, 0, 0);
+}
+.igLinks :hover
+{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+/*Barra De Navegacion*/
+.navegacion
+{
+    padding-top: 10%;
+    border: none;
+}
+nav
+{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.25rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-size: 0.938rem;
+    color: rgb(255, 255, 255);
+    position:fixed;
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    height: 4.375rem;
+    margin-top: 0px;
+    background: url("img/navBar.png") center / 125rem 9.375rem;
+    border-bottom: 0.188rem solid rgb(000, 000, 000);
+    display: flex;
+    z-index: 10;
+}
+a{text-decoration: none;}
+nav article a h1 
+{
+    color:rgb(255, 255, 255);
+    font-size: 2.5rem;
+    text-shadow: 0.313rem 0.188rem 0.188rem rgb(000, 000, 000);
+    text-decoration:none;
+    margin-bottom: 1.875rem;
+    padding: 1.25rem 0.313rem;
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 0px 1.25rem;
+    margin-bottom: 1.875rem;
+    margin-right: 0.313rem;
+}
+nav li .navBar
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav li .navBar:hover
+{
+    color:rgb(0, 0, 0)
+}
+nav li .navBar:visited 
+{
+    color:rgb(0, 0, 0);
+}
+nav li
+{
+    justify-content: space-between;
+    padding: 0.625rem;
+    border: 0.125rem solid ;
+    border-color: rgb(0, 0, 0);
+    margin-top: 0.938rem;
+    box-shadow: 0.125rem 0.313rem rgba(0, 0, 0, 0.5); 
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.2s;
+}
+nav li:hover
+{
+    padding: 0.938rem;
+    transition: 0.2s;
+    border-color:rgb(0, 0, 0);
+}
+nav li:active
+{
+    background-color: rgb(255, 255, 255);
+}
+
+/*Galeria De Imagenes*/
+img
+{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+#imagen
+{
+    border: solid;
+    border-image-slice: 1;
+    border-width: 0.313rem;
+    border-image-source: linear-gradient(to left, rgb(255,255,255), rgb(0, 0, 0));
+}
+.galeriaVisual2
+{
+    width: 100%;
+    place-items: center;
+    position: relative;
+    height: 18.75rem;
+}
+.botones
+{
+    font-size: 1.875rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 0.625rem rgba(255, 255, 255, .6);
+    -webkit-transition:all .3s ease;
+    -o-transition:all .3s ease;
+    transition: all .3s ease;
+    margin-top: 6.25rem;  
+}
+.botones:hover
+{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+.atras
+{
+    left: 2%;
+    top:calc(50%-70%);
+}
+.adelante
+{
+    right: 2%;
+    top: calc(50%-70%);
+}
+
+/*Footer*/
+#advertencia 
+{
+    background-color: rgb(4, 3, 24);
+    color: white;
+    text-align: center;
+    padding: 0.625rem;
+    width: 100%;
+    position: absolute;
+    border-top: 0.313rem;
+    border-color: black;
+}
